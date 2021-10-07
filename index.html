@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDES1060 – Liberty Science Center</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/motion-ui.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+  
+ 
+<header>
+  
+
+<div class="grid-x">
+
+  <div class="cell small-6">
+    <img src="img/logo.png">
+  </div>
+
+  <div class="cell small-6 text-right">
+    <a href="#" data-open="main-menu" class="menu-link"> <img class="menu" src="img/menu.svg"></a>
+  </div>
+
+</div>
+ 
+</header>
+
+<div class="reveal full" id="main-menu" data-reveal>
+ <nav>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="exibits.html">Exibits</a></li>
+ <li><a href="#">Buy Tickets</a></li>
+  <li><a href="#">Support Us</a></li>
+  <li><a href="#">Search</a></li>
+    <li><a href="#">About Us</a></li>
+
+
+ </ul>
+ </nav>
+ <button class="close-button" data-close aria-label="Close modal"
+ type="button"><span aria-hidden="true">Close</span></button>
+</div>
+
+
+
+
+
+<body>
+
+
+
+
+<section class="image-slide">
+
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+ 
+ 
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="img/hero 3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="img/hero 2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="img/hero1.png" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+  <!-- I do not know java script but I loked up how to do the slide show for the top image and a friend helped me -->
+
+<script type="text/javascript">
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+</script>
+
+</section>
+
+
+<section class="featured">
+
+<h1>Featured Exhibit</h1>
+<img class="homephoto"src="img/featured exibit.jpg">
+<p>Conquer a thrilling climbing gym with multiple paths to explore</p>
+</section>
+
+<section class="parking">
+  
+<h2 class="subtitle">Directions & Parking:</h2>
+<p> To purchase your parking voucher. If online parking vouchers are sold out, parking can still be purchased in person at LSC.
+</p>
+<p class="underline">Click Here</p>
+</section>
+<img class="map" src="img/map.png">
+
+
+
+
+
+
+
+  <script src="js/vendor.js"></script>
+  <script src="js/foundation.js"></script>
+
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+<footer>
+
+
+<address> 
+ <img src="img/location.png">
+Liberty State Park
+222 Jersey City Boulevard
+Jersey City, NJ 07305
+ 
+
+</address>
+
+<p>
+<img src="img/phone.png">
+Contact:
+Phone: (201) 200-1000
+
+
+ 
+<section class="hours">
+<img src="img/time.png">
+  Upcoming September Hours
+
+Sept. 8-10
+10 am – 4 pm
+
+Sept. 11 & 12
+10 am – 5 pm
+
+Sept. 16 & 17
+10 am – 4 pm
+
+Sept. 13-15
+Closed
+</section>
+</p>
+
+
+
+<p>© Liberty Science Center 2021. All rights reserved.</p>
+</footer>
+
+</html>

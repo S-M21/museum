@@ -1,0 +1,237 @@
+ 
+body { 
+background-color: white;
+color: black;
+font-family: 'Ubuntu', sans-serif;
+ }
+
+header {
+    background-color: black;
+    padding: .65rem;
+
+}
+
+footer {
+    background-color: black;
+    padding: 3rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.hours{
+ content: "\a";
+ white-space: var(6);
+
+ }
+
+.homephoto {
+  margin-left: auto;
+  margin-right: auto;
+  width: 56%;
+}
+
+.featured{
+  text-align: center;
+  tsp
+  font-size: 7rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 46px;
+  margin-left: 100px;
+  }
+
+  .featured p {
+  font-size: 21px;
+}
+
+.featured h1 {
+  font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.image-slide {
+  background-color: black;
+padding-bottom:6rem ;
+}
+
+.parking h2{
+ font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.map {
+  display: block;
+  margin-left: 160px;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 2rem;
+}
+.underline{
+  text-decoration: underline;
+  color: #52bade;
+}
+.parking  p {
+  font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.clicklink {
+  color: #52bade;
+}
+
+#main-menu nav {
+ display: flex;
+ height: 100%;
+ background: black;
+}
+#main-menu ul {
+ margin: auto 0;
+ padding: 0px;
+ list-style: none;
+}
+
+#main-menu a{
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  margin-left: 34px;
+}
+
+.menu-link {
+  float: right;
+}
+
+.close-button {
+margin-top: 45px;
+margin-right: 23px;
+  color: white;
+}
+
+.exibit {
+margin-left: 270px;
+}
+.category h4{
+text-align: center;
+text-decoration: underline;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.category h1{
+text-align: center;
+font-weight: 400;
+font-size: 4rem;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.detail h1{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.detail p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.image{
+ display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.interesting{
+  text-align: center;
+  font-size: 1.67rem;
+}
+/* Code below here is for slideshow */
+
+
+ {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 30px;
+  margin-top: -10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 8px 0 0 9px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
