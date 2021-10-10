@@ -31,13 +31,13 @@ footer {
 }
 
 .featured{
+  font-family:'Ubuntu', sans-serif;
+;
   text-align: center;
   tsp
   font-size: 7rem;
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-right: 46px;
-  margin-left: 100px;
   }
 
   .featured p {
@@ -48,32 +48,37 @@ footer {
   font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    line-height: 1;
 }
 
 
 .image-slide {
   background-color: black;
-padding-bottom:6rem ;
+padding-bottom:.3rem ;
 }
 
 .parking h2{
+  font-family:'Ubuntu', sans-serif;
+
  font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    padding: 2rem 0;
   }
 
 .map {
   display: block;
-  margin-left: 160px;
-  margin-right: auto;
-  width: 60%;
-  padding-bottom: 2rem;
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
 }
 .underline{
   text-decoration: underline;
   color: #52bade;
 }
 .parking  p {
+    font-family:'Ubuntu', sans-serif;
+
   font-size: 1rem;
     font-weight: bold;
     text-align: center;
@@ -111,9 +116,14 @@ margin-right: 23px;
 }
 
 .exibit {
-margin-left: 270px;
+margin: auto;
+  display: block;
+  width: 70%;
+    padding: 1rem 0;
+
 }
 .category h4{
+font-size: 2rem;
 text-align: center;
 text-decoration: underline;
 font-family: 'Ubuntu', sans-serif;
@@ -126,7 +136,11 @@ font-weight: 400;
 font-size: 4rem;
 font-family: 'Ubuntu', sans-serif;
 }
-
+.copyright{
+  font-size: .875rem;
+  color: #999;
+  margin-top: 1rem;
+}
 .detail h1{
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -140,12 +154,13 @@ font-family: 'Ubuntu', sans-serif;
 }
 .image{
  display: block;
-    margin-left: auto;
-    margin-right: auto
+    margin: auto;
 }
 .interesting{
+      padding: .62rem 0;
+
   text-align: center;
-  font-size: 1.67rem;
+  font-size: 1rem;
 }
 /* Code below here is for slideshow */
 
@@ -173,7 +188,7 @@ font-family: 'Ubuntu', sans-serif;
   position: absolute;
   top: 40%;
   width: auto;
-  padding: 30px;
+  padding: 10px;
   margin-top: -10px;
   color: white;
   font-weight: bold;
